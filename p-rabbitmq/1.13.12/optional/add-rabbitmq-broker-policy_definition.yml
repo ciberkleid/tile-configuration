@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.rabbitmq-broker.policy_definition?
+  value:
+    value: ((rabbitmq-broker/policy_definition))

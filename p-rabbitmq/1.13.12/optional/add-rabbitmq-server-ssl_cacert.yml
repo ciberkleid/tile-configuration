@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.rabbitmq-server.ssl_cacert?
+  value:
+    value: ((rabbitmq-server/ssl_cacert))

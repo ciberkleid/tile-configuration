@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.properties.disk_alarm_threshold?
+  value:
+    value: mem_relative_1_5

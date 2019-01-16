@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.properties.disk_alarm_threshold?
+  value:
+    value: fixed_50_mb
