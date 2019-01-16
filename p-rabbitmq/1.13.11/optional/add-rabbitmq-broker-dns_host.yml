@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.rabbitmq-broker.dns_host?
+  value:
+    value: ((rabbitmq-broker/dns_host))

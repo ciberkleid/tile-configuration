@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.rabbitmq-server.ssl_fail_if_no_peer_cert?
+  value:
+    value: ((rabbitmq-server/ssl_fail_if_no_peer_cert))

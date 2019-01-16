@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.rabbitmq-server.config?
+  value:
+    value: ((rabbitmq-server/config))

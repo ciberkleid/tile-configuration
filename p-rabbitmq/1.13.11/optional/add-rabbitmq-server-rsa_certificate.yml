@@ -1,0 +1,6 @@
+- type: replace
+  path: /product-properties/.rabbitmq-server.rsa_certificate?
+  value:
+    value:
+      cert_pem: ((rabbitmq-server/rsa_certificate/certificate))
+      private_key_pem: ((rabbitmq-server/rsa_certificate/privatekey))

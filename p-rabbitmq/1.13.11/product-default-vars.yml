@@ -1,0 +1,17 @@
+metrics_polling_interval: 30
+on-demand-broker/global_service_instance_quota: 20
+on_demand_broker_plan_1_cf_service_access: disable
+on_demand_broker_plan_1_description: This plan provides a single dedicated RabbitMQ
+  3.7 node
+on_demand_broker_plan_1_features: RabbitMQ 3.7
+on_demand_broker_plan_1_instance_quota: 10
+on_demand_broker_plan_1_name: single-node-3.7
+on_demand_broker_plan_1_rabbitmq_cluster_partition_handling_strategy: pause_minority
+on_demand_broker_plan_1_rabbitmq_number_of_nodes: 1
+rabbitmq-broker/operator_set_policy_enabled: false
+rabbitmq-server/cluster_partition_handling: pause_minority
+rabbitmq-server/ports: 15672, 5672, 5671, 1883, 8883, 61613, 61614, 15674
+rabbitmq-server/ssl_verification_depth: 5
+syslog_selector/enabled/syslog_format: rfc5424
+syslog_selector/enabled/syslog_tls: false
+syslog_selector/enabled/syslog_transport: tcp
