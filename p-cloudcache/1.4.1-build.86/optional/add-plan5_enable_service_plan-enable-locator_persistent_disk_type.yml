@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.properties.plan5_enable_service_plan.enable.locator_persistent_disk_type?
+  value:
+    value: ((plan5_enable_service_plan/enable/locator_persistent_disk_type))
