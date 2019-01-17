@@ -1,0 +1,3 @@
+- type: replace
+  path: /resource-config?/run-smoke-tests?/internet_connected?
+  value: ((run-smoke-tests_internet_connected))

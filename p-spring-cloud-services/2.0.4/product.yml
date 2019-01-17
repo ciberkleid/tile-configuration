@@ -1,0 +1,51 @@
+product-name: p-spring-cloud-services
+network-properties:
+  network:
+    name: ((network_name))
+  other_availability_zones:
+  - name: ((singleton_availability_zone))
+  singleton_availability_zone:
+    name: ((singleton_availability_zone))
+product-properties:
+  .deploy-service-broker.broker_max_instances:
+    value: ((deploy-service-broker/broker_max_instances))
+  .deploy-service-broker.disable_cert_check:
+    value: ((deploy-service-broker/disable_cert_check))
+  .deploy-service-broker.message_bus_service:
+    value: ((deploy-service-broker/message_bus_service))
+  .deploy-service-broker.message_bus_service_plan:
+    value: ((deploy-service-broker/message_bus_service_plan))
+  .deploy-service-broker.persistence_store_service:
+    value: ((deploy-service-broker/persistence_store_service))
+  .deploy-service-broker.persistence_store_service_plan:
+    value: ((deploy-service-broker/persistence_store_service_plan))
+  .deploy-service-broker.secure_credentials:
+    value: ((deploy-service-broker/secure_credentials))
+  .register-service-broker.enable_global_access:
+    value: ((register-service-broker/enable_global_access))
+resource-config:
+  deploy-service-broker:
+    instance_type:
+      id: ((deploy-service-broker_instance_type))
+  destroy-service-broker:
+    instance_type:
+      id: ((destroy-service-broker_instance_type))
+  register-service-broker:
+    instance_type:
+      id: ((register-service-broker_instance_type))
+  run-smoke-tests:
+    instance_type:
+      id: ((run-smoke-tests_instance_type))
+errand-config:
+  deploy-service-broker:
+    post-deploy-state: ((deploy-service-broker_post_deploy_state))
+    pre-delete-state: ((deploy-service-broker_pre_delete_state))
+  destroy-service-broker:
+    post-deploy-state: ((destroy-service-broker_post_deploy_state))
+    pre-delete-state: ((destroy-service-broker_pre_delete_state))
+  register-service-broker:
+    post-deploy-state: ((register-service-broker_post_deploy_state))
+    pre-delete-state: ((register-service-broker_pre_delete_state))
+  run-smoke-tests:
+    post-deploy-state: ((run-smoke-tests_post_deploy_state))
+    pre-delete-state: ((run-smoke-tests_pre_delete_state))

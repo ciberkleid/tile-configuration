@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.deploy-service-broker.instances_app_domain?
+  value:
+    value: ((deploy-service-broker/instances_app_domain))
