@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.deploy-service-broker.buildpack?
+  value:
+    value: ((deploy-service-broker/buildpack))

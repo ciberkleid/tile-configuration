@@ -1,0 +1,3 @@
+- type: replace
+  path: /resource-config?/destroy-service-broker?/elb_names?
+  value: ((destroy-service-broker_elb_names))
