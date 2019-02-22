@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.properties.plan4_enable_service_plan.enable.server_vm_type?
+  value:
+    value: ((plan4_enable_service_plan/enable/server_vm_type))

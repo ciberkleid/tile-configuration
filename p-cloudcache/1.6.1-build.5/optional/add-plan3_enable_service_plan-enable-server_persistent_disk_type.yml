@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.properties.plan3_enable_service_plan.enable.server_persistent_disk_type?
+  value:
+    value: ((plan3_enable_service_plan/enable/server_persistent_disk_type))

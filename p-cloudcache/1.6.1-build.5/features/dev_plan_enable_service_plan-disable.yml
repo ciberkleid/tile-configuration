@@ -1,0 +1,20 @@
+- type: replace
+  path: /product-properties/.properties.dev_plan_enable_service_plan?
+  value:
+    value: disable
+- type: remove
+  path: /product-properties/.properties.dev_plan_enable_service_plan.enable.plan_name?
+- type: remove
+  path: /product-properties/.properties.dev_plan_enable_service_plan.enable.plan_description?
+- type: remove
+  path: /product-properties/.properties.dev_plan_enable_service_plan.enable.service_metrics?
+- type: remove
+  path: /product-properties/.properties.dev_plan_enable_service_plan.enable.cf_service_access?
+- type: remove
+  path: /product-properties/.properties.dev_plan_enable_service_plan.enable.service_instance_quota?
+- type: remove
+  path: /product-properties/.properties.dev_plan_enable_service_plan.enable.service_instance_azs?
+- type: remove
+  path: /product-properties/.properties.dev_plan_enable_service_plan.enable.vm_type?
+- type: remove
+  path: /product-properties/.properties.dev_plan_enable_service_plan.enable.persistent_disk_type?
