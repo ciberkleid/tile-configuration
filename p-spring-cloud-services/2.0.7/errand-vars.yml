@@ -1,0 +1,8 @@
+deploy-service-broker_post_deploy_state: default
+deploy-service-broker_pre_delete_state: default
+destroy-service-broker_post_deploy_state: default
+destroy-service-broker_pre_delete_state: default
+register-service-broker_post_deploy_state: default
+register-service-broker_pre_delete_state: default
+run-smoke-tests_post_deploy_state: default
+run-smoke-tests_pre_delete_state: default

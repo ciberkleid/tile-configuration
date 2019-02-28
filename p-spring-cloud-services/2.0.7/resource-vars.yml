@@ -1,0 +1,4 @@
+deploy-service-broker_instance_type: automatic
+destroy-service-broker_instance_type: automatic
+register-service-broker_instance_type: automatic
+run-smoke-tests_instance_type: automatic
