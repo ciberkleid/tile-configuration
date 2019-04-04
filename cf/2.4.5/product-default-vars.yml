@@ -1,5 +1,6 @@
 autoscale_api_disable_connection_pooling: false
 autoscale_api_instance_count: 1
+autoscale_enable_notifications: true
 autoscale_enable_verbose_logging: false
 autoscale_instance_count: 3
 autoscale_metric_bucket_count: 120
@@ -64,6 +65,7 @@ push_apps_manager_display_plan_prices: false
 push_apps_manager_enable_invitations: true
 push_apps_manager_poll_interval: 30
 route_services/enable/ignore_ssl_cert_verification: false
+route_services/enable/internal_lookup: false
 router/disable_insecure_cookies: false
 router/drain_wait: 20
 router/enable_isolated_routing: false

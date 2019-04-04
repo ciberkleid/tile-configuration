@@ -63,6 +63,8 @@ product-properties:
     value: ((autoscale_api_disable_connection_pooling))
   .properties.autoscale_api_instance_count:
     value: ((autoscale_api_instance_count))
+  .properties.autoscale_enable_notifications:
+    value: ((autoscale_enable_notifications))
   .properties.autoscale_enable_verbose_logging:
     value: ((autoscale_enable_verbose_logging))
   .properties.autoscale_instance_count:
@@ -186,6 +188,8 @@ product-properties:
     value: enable
   .properties.route_services.enable.ignore_ssl_cert_verification:
     value: ((route_services/enable/ignore_ssl_cert_verification))
+  .properties.route_services.enable.internal_lookup:
+    value: ((route_services/enable/internal_lookup))
   .properties.router_backend_max_conn:
     value: ((router_backend_max_conn))
   .properties.router_client_cert_validation:
