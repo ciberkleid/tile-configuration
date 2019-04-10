@@ -1,0 +1,4 @@
+- type: replace
+  path: /product-properties/.properties.small_footprint_enable_service_plan.enable.persistent_disk_type?
+  value:
+    value: ((small_footprint_enable_service_plan/enable/persistent_disk_type))

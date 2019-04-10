@@ -1,0 +1,3 @@
+- type: replace
+  path: /resource-config?/cloudcache-broker?/elb_names?
+  value: ((cloudcache-broker_elb_names))
