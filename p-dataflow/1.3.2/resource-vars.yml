@@ -1,0 +1,4 @@
+create-uaa-client_instance_type: automatic
+delete-all_instance_type: automatic
+deploy-all_instance_type: automatic
+run-tests_instance_type: automatic
