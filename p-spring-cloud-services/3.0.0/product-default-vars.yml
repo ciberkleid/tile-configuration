@@ -1,0 +1,3 @@
+config_server_access: global
+java_buildpack: java_buildpack_offline
+status_change_timeout_minutes: 30
