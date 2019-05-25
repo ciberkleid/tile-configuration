@@ -1,0 +1,64 @@
+- type: replace
+  path: /product-properties/.properties.azure_sqldb_sql_server_pool?
+  value:
+    value:
+    - administratorLogin: ((azure_sqldb_sql_server_pool_0/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_0/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_0/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_0/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_0/sqlServerName))
+    - administratorLogin: ((azure_sqldb_sql_server_pool_1/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_1/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_1/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_1/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_1/sqlServerName))
+    - administratorLogin: ((azure_sqldb_sql_server_pool_2/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_2/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_2/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_2/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_2/sqlServerName))
+    - administratorLogin: ((azure_sqldb_sql_server_pool_3/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_3/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_3/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_3/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_3/sqlServerName))
+    - administratorLogin: ((azure_sqldb_sql_server_pool_4/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_4/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_4/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_4/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_4/sqlServerName))
+    - administratorLogin: ((azure_sqldb_sql_server_pool_5/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_5/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_5/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_5/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_5/sqlServerName))
+    - administratorLogin: ((azure_sqldb_sql_server_pool_6/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_6/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_6/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_6/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_6/sqlServerName))
+    - administratorLogin: ((azure_sqldb_sql_server_pool_7/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_7/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_7/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_7/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_7/sqlServerName))
+    - administratorLogin: ((azure_sqldb_sql_server_pool_8/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_8/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_8/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_8/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_8/sqlServerName))
+    - administratorLogin: ((azure_sqldb_sql_server_pool_9/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_9/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_9/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_9/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_9/sqlServerName))

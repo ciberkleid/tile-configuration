@@ -1,0 +1,93 @@
+allow_to_generate_names_and_passwords_for_the_missing: true
+azure_service_broker_enable_global_access_to_plans: true
+azure_sqldb_allow_to_create_sql_server: true
+azure_sqldb_enable_transparent_data_encryption: false
+default_location: eastus
+default_parameters_azure_cosmosdb: |
+  {
+    "kind": "DocumentDB"
+  }
+default_parameters_azure_docdb: |
+  {
+  }
+default_parameters_azure_eventhubs: |
+  {
+    "eventHubProperties": {
+        "messageRetentionInDays": 1,
+        "partitionCount": 2
+    }
+  }
+default_parameters_azure_mysqldb: |
+  {
+    "mysqlServerParameters": {
+        "allowMysqlServerFirewallRules": [
+            {
+              "ruleName": "all",
+              "startIpAddress": "0.0.0.0",
+              "endIpAddress": "255.255.255.255"
+            }
+        ],
+        "properties": {
+            "version": "5.6",
+            "sslEnforcement": "Disabled",
+            "storageMB": 51200
+        }
+    }
+  }
+default_parameters_azure_postgresqldb: |
+  {
+    "postgresqlServerParameters": {
+        "allowPostgresqlServerFirewallRules": [
+            {
+              "ruleName": "all",
+              "startIpAddress": "0.0.0.0",
+              "endIpAddress": "255.255.255.255"
+            }
+        ],
+        "properties": {
+            "version": "9.6",
+            "sslEnforcement": "Disabled",
+            "storageMB": 51200
+        }
+    }
+  }
+default_parameters_azure_rediscache: |
+  {
+    "parameters": {
+        "enableNonSslPort": false
+    }
+  }
+default_parameters_azure_servicebus: |
+  {
+  }
+default_parameters_azure_sqldb: |
+  {
+    "sqlServerParameters": {
+        "allowSqlServerFirewallRules": [
+            {
+                "ruleName": "all",
+                "startIpAddress": "0.0.0.0",
+                "endIpAddress": "255.255.255.255"
+            }
+        ]
+    },
+    "transparentDataEncryption": true,
+    "sqldbParameters": {
+        "properties": {
+            "collation": "SQL_Latin1_General_CP1_CI_AS"
+        }
+    }
+  }
+default_parameters_azure_sqldb_failover_group: |
+  {
+    "readWriteEndpoint": {
+        "failoverPolicy": "Automatic",
+        "failoverWithDataLossGracePeriodMinutes": 60
+    },
+    "userRoles": ["db_owner"]
+  }
+default_parameters_azure_storage: |
+  {
+    "accountType": "Standard_LRS"
+  }
+default_resource_group: azure-service-broker

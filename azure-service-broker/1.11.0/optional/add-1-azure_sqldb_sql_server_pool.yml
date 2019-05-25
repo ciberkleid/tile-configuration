@@ -1,0 +1,10 @@
+- type: replace
+  path: /product-properties/.properties.azure_sqldb_sql_server_pool?
+  value:
+    value:
+    - administratorLogin: ((azure_sqldb_sql_server_pool_0/administratorLogin))
+      administratorLoginPassword:
+        secret: ((azure_sqldb_sql_server_pool_0/administratorLoginPassword))
+      location: ((azure_sqldb_sql_server_pool_0/location))
+      resourceGroup: ((azure_sqldb_sql_server_pool_0/resourceGroup))
+      sqlServerName: ((azure_sqldb_sql_server_pool_0/sqlServerName))
